@@ -11,7 +11,7 @@ export function AccountStack() {
       <Stack.Screen
         name={screenName.account.account}
         component={AccountScreen}
-        options={{ title: "Account" }}
+        options={{ title: "Cuenta" }}
       />
     </Stack.Navigator>
   );
